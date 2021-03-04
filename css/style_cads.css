@@ -1,0 +1,241 @@
+.form{
+    height: 500px;
+    width: 550px;
+    top: -12px;
+    border-radius: 37px;
+    position: absolute;
+    right: 35%;
+    top: 150px;
+    bottom: 100px;
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+}
+
+
+.cadastrar{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 7%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
+.name{
+    position: absolute;
+    left: 7%;
+    right: 8.8%;
+    top: 20%;
+    bottom: 67.3%;
+
+}
+
+.name input{
+    height: 55px;
+    width: 450px;
+    left: 65px;
+    top: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.email{
+    position: absolute;
+    left: 7%;
+    right: 8.8%;
+    top: 35%;
+    bottom: 51.02%;
+
+}
+
+.email input{
+    height: 55px;
+    width: 450px;
+    left: 65px;
+    top: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.senha{
+    position: absolute;
+    left: 7%;
+    right: 8.8%;
+    top: 50%;
+    bottom: 34.75%;
+    height: 95,83px;
+    width: 619px ;
+}
+
+.senha input{
+    height: 55px;
+    width: 450px;
+    left: 65px;
+    top: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.botao{
+    line-height: 50px;
+    position: absolute;
+    left: 8%;
+    right: 8.96%;
+    top: 74.91%;
+    bottom: 10.55%;
+    background: #124E78;
+    border-radius: 18px;
+    height: 82.62px;
+    width: 460.97px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.image{
+    position: absolute;
+    width: 337px;
+    height: 189px;
+    right: 40%;
+    top: -2%;
+    align-items: center;
+    text-align: center;
+}
+
+.image3{
+    position: absolute;
+    width: 268px;
+    height: 26px;
+    left: 1500px;
+    top: 775px;
+}
+
+
+body {
+    background: #E5E5E5;
+  }
+
+
+
+@media screen and (max-width: 900px) {
+    .image3{ display: none}
+        .btn-toggle{display: block}
+}
+@media screen and (max-width: 900px) {
+    .form{
+        height: 500px;
+        width: 550px;
+        left: 0px;
+        top: -12px;
+        border-radius: 37px;
+        position: absolute;
+        left: 15px;
+        right: 0%;
+        top: 150px;
+        bottom: 100px;
+        background: #FFFDFD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 37px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .image{
+        position: absolute;
+        width: 337px;
+        height: 189px;
+        left: 125px;
+        top: -2%;
+
+    }
+}
+
+.msg_sucesso{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 7%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
+.msg_email{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 7%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
+
+.error{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 7%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
+
+.msg_preencher{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 7%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+

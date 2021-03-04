@@ -1,0 +1,277 @@
+.form{
+    height: 580px;
+    width: 750px;
+    top: -12px;
+    border-radius: 37px;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    bottom: 100px;
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+    transform: translate(-50%, -50%);
+}
+.conta{
+    position: absolute;
+    width: 580px;
+    height: 143x;
+    left: 100px;
+    top: 580px;
+    font-family: Roboto;
+    font-style: Roboto;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.cadastro2{
+    position: absolute;
+    width: 559px;
+    height: 75px;
+    left: 360px;
+    top: 580px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.42);
+}
+
+
+.cadastrar{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 4%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
+.name{
+    position: absolute;
+    Left: 7%;
+    right: 8.8%;
+    top: 20%;
+    bottom: 67.3%;
+
+}
+
+.name input{
+    height: 55px;
+    width: 619px;
+    left: 65px;
+    top: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #E5E5E5;
+
+
+}
+
+.email{
+    position: absolute;
+    left: 7%;
+    right: 8.8%;
+    top: 35%;
+    bottom: 51.02%;
+
+}
+
+.email input{
+    height: 55px;
+    width: 450px;
+    left: 65px;
+    top: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.botao_loc{
+    line-height: 30px;
+    position: absolute;
+    left: 52.4%;
+    right: 8%;
+    top: 72.01%;
+    bottom: 13.38%;
+    background: #124E78;
+    border-radius: 15px;
+    height: 83px;
+    width: 291px;
+    font-size: 38px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.botao_can{
+    line-height: 30px;
+    position: absolute;
+    left: 8.53%;
+    right: 52.67%;
+    top: 72.01%;
+    bottom: 13.38%;
+    background: #FFFFFF;
+    border-radius: 18px;
+    height: 83px;
+    width: 291px;
+    font-size: 38px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #124E78;
+    border: 2px solid #124E78;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.image{
+    position: absolute;
+    width: 337px;
+    height: 189px;
+    left: 40%;
+    top: -2%;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.image3{
+    position: absolute;
+    width: 268px;
+    height: 26px;
+    left: 1500px;
+    top: 775px;
+}
+
+
+body {
+    background: #E5E5E5;
+  }
+
+
+
+@media screen and (max-width: 900px) {
+    .image3{ display: none}
+        .btn-toggle{display: block}
+}
+@media screen and (max-width: 900px) {
+    .form{
+        height: 500px;
+        width: 550px;
+        left: 0px;
+        top: -12px;
+        border-radius: 37px;
+        position: absolute;
+        left: 15px;
+        right: 0%;
+        top: 150px;
+        bottom: 100px;
+        background: #FFFDFD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 37px;
+        transform: translate(-50, -50);
+    }
+}
+@media screen and (max-width: 900px) {
+    .image{
+        position: absolute;
+        width: 337px;
+        height: 189px;
+        left: 125px;
+        top: -2%;
+
+    }
+}
+@media screen and (max-width: 900px) {
+    .name input{
+        height: 55px;
+        width: 480px;
+        left: 65px;
+        top: 150px;
+        font-size: 30px;
+        border-radius: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        color: #E5E5E5;
+
+
+
+}
+}
+
+
+@media screen and (max-width: 900px) {
+    .botao_loc{
+        line-height: 30px;
+        position: absolute;
+        left: 52.4%;
+        right: 8%;
+        top: 72.01%;
+        bottom: 13.38%;
+        background: #124E78;
+        border-radius: 15px;
+        height: 70px;
+        width: 228px;
+        font-size: 38px;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    .botao_can{
+        line-height: 30px;
+        position: absolute;
+        left: 7.53%;
+        right: 52.67%;
+        top: 72.01%;
+        bottom: 13.38%;
+        background: #FFFFFF;
+        border-radius: 18px;
+        height: 70px;
+        width: 220px;
+        font-size: 38px;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        color: #124E78;
+        border: 2px solid #124E78;
+        box-sizing: border-box;
+        border-radius: 18px;
+    }
+
+}
