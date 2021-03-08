@@ -15,22 +15,22 @@
 .botao_login{
     line-height: 50px;
     position: absolute;
-    left: 8%;
+    left:47.5%;
     right: 8.96%;
-    top: 100%;
+    top: 63%;
     bottom: 10.55%;
-    background: #124E78;
-    border-radius: 18px;
-    height: 82.62px;
-    width: 460.97px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 42px;
+    width: 125px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 43px;
+    font-size: 20px;
     display: inline-block;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #124E78;
 }
 
 .botao{
@@ -38,7 +38,7 @@
     position: absolute;
     left: 8%;
     right: 8.96%;
-    top: 74.91%;
+    top: 70%;
     bottom: 10.55%;
     background: #124E78;
     border-radius: 18px;
@@ -58,7 +58,7 @@
     position: absolute;
     left: 7%;
     right: 30%;
-    top: 7%;
+    top: 5%;
     bottom: 89%;
     font-family: Roboto;
     font-style: normal;
@@ -185,5 +185,23 @@ body {
         left: 125px;
         top: -2%;
 
+    }
+}
+
+@media screen and (max-width: 900px){
+    .botao_login{
+        height: 500px;
+        width: 550px;
+        left: 0px;
+        top: -12px;
+        border-radius: 37px;
+        position: absolute;
+        left: 15px;
+        right: 0%;
+        top: 150px;
+        bottom: 100px;
+        background: #FFFDFD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 37px;
     }
 }

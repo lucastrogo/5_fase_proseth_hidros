@@ -51,16 +51,18 @@ Class Usuario
     }
 
 
-    public function email(){
+    public function email($email){
         if(isset($_POST['comentario'])){
             global $pdo;
+            $sql=$pdo->prepare("SELECT id_usuario FROM usuarios WHERE email = :e");
+            $sql->bindValue(":e",$email);
             $to = "trogolucas@gmail.com"; // this is your Email address
             $from = "troodita@gmail.com"; // this is the sender's Email address
             $subject = "Bench";
             $message = "O seguinte bench foi solicitado:" . "\n\n" . wordwrap($_POST['comentario']);
             $headers = "From:" . $from;
             mail($to,$subject,$message,$headers);
-            echo "Bench enviado. Em breve será respondido, obrigado pelo contato";
+            echo "Bench enviado. Em breve será respondido, obrigado pelo contato.";
             // You can also use header('Location: thank_you.php'); to redirect to another page.
             // You cannot use header and echo together. It's one or the other.
             }
@@ -71,10 +73,26 @@ Class Usuario
         exit;
     }
 
+    public function isEmailCad($u, $nome, $senha, $email) {
+        $email = trim($email); // in case there's any whitespace
 
+        if((mb_substr($email, -10) == '@gmail.com') == True ){
+            if($u->cadastrar($nome, $email, $senha)){
+                ?>
+                <div class= "msg-sucesso">
+                Cadastrado com sucesso! Acesse para entrar!
+                </div>
+                <?php
+            } else{
+                ?>
+                <div class= "msg-email">
+                Email já cadastrado!
+                </div>
+                <?php
+            }
+        }else{
+                echo "Email não se encaixa no padrão gmail";
+            }
+        }
 }
 
-
-
-
-?>

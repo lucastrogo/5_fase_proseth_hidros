@@ -32,11 +32,11 @@
                 <input type="password" placeholder="Senha" name= "senha" maxlength="32">
             </label>
                 <input type="submit" value = "Cadastrar" class = "botao">
-                <button onclick= "location.href='index.php'" class="botao_login" >Login</button>
             <div class="cadastrar">
                 <p>Cadastre-se</p>
             </div>
         </form>
+        <button onclick= "location.href='index.php'" class="botao_login" >Login</button>
     </div>
 
 <?php
@@ -50,21 +50,8 @@
         $u -> conectar("bench_hidros", "localhost", "root", "");
 
         if ($u->msgErro == ""){
-
-            if($u->cadastrar($nome, $email, $senha)){
-                ?>
-                <div class= "msg-sucesso">
-                Cadastrado com sucesso! Acesse para entrar!
-                </div>
-                <?php
-            } else{
-                ?>
-                <div class= "msg-email">
-                Email já cadastrado!
-                </div>
-                <?php
-            }
-        } else{
+            $u->isEmailCad($u, $nome, $senha, $email);
+        }else{
             ?>
             <div class= "error">
              <?php echo "Erro: ".$u->msgErro;?>

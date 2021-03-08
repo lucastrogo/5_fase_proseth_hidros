@@ -65,7 +65,7 @@ if (isset($_POST["email"])){
             if($u->logar($email, $senha)){
                 header("location: coments.php");
             }else{
-                echo "Email e/ou senha incorretos!";
+                echo "Email e/ou senha incorretos! ou usuário não cadastrado, cadastre-se.";
             }
         }else{
             echo "Erro:".$u->msgErro;
