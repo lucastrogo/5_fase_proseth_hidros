@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Localizar conta Bench Hidros</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style_senha.css">
+    <link rel="stylesheet" href="css/style_sen.css">
 </head>
 <body>
     <div class="geral">
@@ -31,11 +31,10 @@
                 </div>
                 <div class="cadastro2">
                     <a
-                        href="./cadastro.html" style="text-decoration: none;">cadastre-se</a>
+                        href="cadastro.php" style="text-decoration: none;">cadastre-se</a>
                 </div>
             </div>
         </form>
-
     </div>
 </body>
 </html>

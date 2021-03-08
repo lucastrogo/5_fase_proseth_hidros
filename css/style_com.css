@@ -21,7 +21,7 @@
     position: absolute;
     left: 268px;
     right: 8.96%;
-    top: 426px;
+    top: 423px;
     bottom: 10.55%;
     background: #FFFFFF;
     border-radius: 18px;
@@ -68,7 +68,7 @@
     position: absolute;
     width: 337px;
     height: 189px;
-    left: 85px;
+    left: 200px;
     top: 5px;
 }
 
@@ -76,8 +76,8 @@
     position: absolute;
     width: 268px;
     height: 26px;
-    left: 1400px;
-    top: 780px;
+    left: 1500px;
+    top: 800px;
 }
 
 .text{
@@ -123,7 +123,7 @@
     position: absolute;
     left: 1225PX;
     right: 200px;
-    top: 745PX;
+    top: 795PX;
     bottom: 2.54%;
 
     font-family: Roboto;

@@ -10,13 +10,12 @@
     background: #FFFDFD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 37px;
-    transform: translate(-50%, -50%);
 }
 .conta{
     position: absolute;
     width: 580px;
     height: 143x;
-    left: 100px;
+    left: 190px;
     top: 580px;
     font-family: Roboto;
     font-style: Roboto;
@@ -26,7 +25,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-
     color: rgba(0, 0, 0, 0.42);
 }
 
@@ -34,7 +32,7 @@
     position: absolute;
     width: 559px;
     height: 75px;
-    left: 360px;
+    left: 450px;
     top: 580px;
     font-family: Roboto;
     font-style: normal;
@@ -44,7 +42,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-
     color: rgba(0, 0, 0, 0.42);
 }
 
@@ -62,7 +59,6 @@
     line-height: 40px;
     display: flex;
     align-items: center;
-
     color: rgba(146, 147, 148, 0.5);
 }
 
@@ -90,7 +86,6 @@
     display: flex;
     align-items: center;
     color: #E5E5E5;
-
 
 }
 
@@ -160,7 +155,6 @@
     top: -2%;
     align-items: center;
     text-align: center;
-    transform: translate(-50%, -50%);
 }
 
 .image3{
@@ -197,7 +191,6 @@ body {
         background: #FFFDFD;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 37px;
-        transform: translate(-50, -50);
     }
 }
 @media screen and (max-width: 900px) {
@@ -207,7 +200,6 @@ body {
         height: 189px;
         left: 125px;
         top: -2%;
-
     }
 }
 @media screen and (max-width: 900px) {
@@ -226,10 +218,7 @@ body {
         display: flex;
         align-items: center;
         color: #E5E5E5;
-
-
-
-}
+    }
 }
 
 
@@ -250,7 +239,6 @@ body {
         align-items: center;
         text-align: center;
         color: #FFFFFF;
-
     }
 
     .botao_can{
@@ -273,5 +261,4 @@ body {
         box-sizing: border-box;
         border-radius: 18px;
     }
-
 }

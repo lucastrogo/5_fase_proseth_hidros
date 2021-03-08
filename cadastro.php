@@ -32,6 +32,7 @@
                 <input type="password" placeholder="Senha" name= "senha" maxlength="32">
             </label>
                 <input type="submit" value = "Cadastrar" class = "botao">
+                <button onclick= "location.href='index.php'" class="botao_login" >Login</button>
             <div class="cadastrar">
                 <p>Cadastre-se</p>
             </div>

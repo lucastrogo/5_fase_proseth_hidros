@@ -12,6 +12,47 @@
     border-radius: 37px;
 }
 
+.botao_login{
+    line-height: 50px;
+    position: absolute;
+    left: 8%;
+    right: 8.96%;
+    top: 100%;
+    bottom: 10.55%;
+    background: #124E78;
+    border-radius: 18px;
+    height: 82.62px;
+    width: 460.97px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.botao{
+    line-height: 50px;
+    position: absolute;
+    left: 8%;
+    right: 8.96%;
+    top: 74.91%;
+    bottom: 10.55%;
+    background: #124E78;
+    border-radius: 18px;
+    height: 82.62px;
+    width: 460.97px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 .cadastrar{
     position: absolute;
@@ -90,28 +131,6 @@
 
 
 
-
-.botao{
-    line-height: 50px;
-    position: absolute;
-    left: 8%;
-    right: 8.96%;
-    top: 74.91%;
-    bottom: 10.55%;
-    background: #124E78;
-    border-radius: 18px;
-    height: 82.62px;
-    width: 460.97px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 43px;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-}
-
 .image{
     position: absolute;
     width: 337px;
@@ -168,74 +187,3 @@ body {
 
     }
 }
-
-.msg_sucesso{
-    position: absolute;
-    left: 7%;
-    right: 30%;
-    top: 7%;
-    bottom: 89%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-
-    color: rgba(146, 147, 148, 0.5);
-}
-
-.msg_email{
-    position: absolute;
-    left: 7%;
-    right: 30%;
-    top: 7%;
-    bottom: 89%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-
-    color: rgba(146, 147, 148, 0.5);
-}
-
-
-.error{
-    position: absolute;
-    left: 7%;
-    right: 30%;
-    top: 7%;
-    bottom: 89%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-
-    color: rgba(146, 147, 148, 0.5);
-}
-
-
-.msg_preencher{
-    position: absolute;
-    left: 7%;
-    right: 30%;
-    top: 7%;
-    bottom: 89%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-
-    color: rgba(146, 147, 148, 0.5);
-}
-
