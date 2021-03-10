@@ -51,12 +51,17 @@
 
         if (!empty($comentario)){
             if ($u->msgErro == ""){
-                if($u->email($comentario)){
-                    ?>
-                    <div class= "msg-sucesso">
-                    Bench enviado!
-                    </div>
-                    <?php
+                if(isset($_POST['comentario'])){
+                    $to = "trogolucas@gmail.com";
+                    $from = "troodita@gmail.com";
+                    $subject = "Bench";
+                    $message = "O seguinte bench foi solicitado:" . "\n\n" .$_POST['comentario'];
+                    $headers = "From:" . $from;
+                    mail($to,$subject,$message,$headers);
+                    echo "Bench enviado. Em breve será respondido, obrigado pelo contato.";
+                    echo "Erro:".$u->msgErro;
+                    }else{
+                    echo "Bench não enviado";
                 }
             } else{
                 ?>

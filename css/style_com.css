@@ -136,6 +136,23 @@
     color: rgba(142, 142, 142, 0.71);
 }
 
+.nome_sql{
+    position: absolute;
+    left: 7%;
+    right: 30%;
+    top: 5%;
+    bottom: 89%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(146, 147, 148, 0.5);
+}
+
 @media screen and (max-width: 800px){
     .image{
         position: absolute;

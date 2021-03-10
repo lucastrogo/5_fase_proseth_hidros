@@ -36,7 +36,6 @@
                 <p>Cadastre-se</p>
             </div>
         </form>
-        <button onclick= "location.href='index.php'" class="botao_login" >Login</button>
     </div>
 
 <?php
@@ -51,6 +50,7 @@
 
         if ($u->msgErro == ""){
             $u->isEmailCad($u, $nome, $senha, $email);
+            header("location: index.php");
         }else{
             ?>
             <div class= "error">
