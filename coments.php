@@ -35,7 +35,7 @@
             </label>
         </div>
         <button  class="botao_env">Enviar</button>
-        <div class= "usuario"> Bem vindo, </div>
+        <div class= "usuario"> Bem vindo</div>
         <div id = "user" class="user"></div>
     </form>
     <button onclick="location.href='index.php'" class="botao_fin" >Finalizar</button>
@@ -51,18 +51,14 @@
 
         if (!empty($comentario)){
             if ($u->msgErro == ""){
-                if(isset($_POST['comentario'])){
-                    $to = "trogolucas@gmail.com";
-                    $from = "troodita@gmail.com";
-                    $subject = "Bench";
-                    $message = "O seguinte bench foi solicitado:" . "\n\n" .$_POST['comentario'];
-                    $headers = "From:" . $from;
-                    mail($to,$subject,$message,$headers);
-                    echo "Bench enviado. Em breve será respondido, obrigado pelo contato.";
-                    echo "Erro:".$u->msgErro;
+                    $receiver = "troodita@gmail.com";
+                    $subject = "O seguinte Bench foi pedido:";
+                    $sender = "De: Lucas Trogo";
+                    if(mail($receiver, $subject, $comentario, $sender)){
+                        echo "Bench enviado. Em breve será respondido, obrigado pelo contato.";
                     }else{
-                    echo "Bench não enviado";
-                }
+                        echo "Bench não enviado";
+                    }
             } else{
                 ?>
                 <div class= "error">

@@ -59,7 +59,7 @@ if (isset($_POST["email"])){
     $senha=addslashes($_POST["senha"]);
 
     if (!empty($email) && !empty($senha)){
-        $u->conectar("bench_hidros", "localhost", "root", "");;
+        $u->conectar("bench_hidros", "localhost", "root", "");
 
         if($u->msgError ==""){
             if($u->logar($email, $senha)){

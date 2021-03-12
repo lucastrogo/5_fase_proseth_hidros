@@ -50,6 +50,8 @@
 
         if ($u->msgErro == ""){
             $u->isEmailCad($u, $nome, $senha, $email);
+            echo $u->msgErro;
+            sleep(3);
             header("location: index.php");
         }else{
             ?>

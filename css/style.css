@@ -34,18 +34,21 @@
     align-items: center;
     text-align: center;
     color: #E5E5E5;
+    border-color: #E5E5E5;
 
 }
 
-.email input {
+.email input{
     height: 72px;
     font-size: 36px;
     border-radius: 10px;
+    border-color: #E5E5E5;
 
 
 
 
 }
+
 .password{
     position: absolute;
     left: 10%;
@@ -61,12 +64,15 @@
     align-items: center;
     text-align: center;
     color: rgba(46, 39, 40, 0.19);
+    border-color: #E5E5E5;
+
 
 }
 .password input{
     height: 72px;
     font-size: 36px;
     border-radius: 10px;
+    border-color: #E5E5E5;
 
 
 }
@@ -148,7 +154,18 @@
 
     color: rgba(0, 0, 0, 0.42);
 }
+::placeholder{
+    color: #E5E5E5;
 
+}
+:-ms-input-placeholder{
+    color: #E5E5E5;
+
+}
+::-ms-input-placeholder{
+    color: #E5E5E5;
+
+}
 .image{
     position: absolute;
     width: 337px;
@@ -162,15 +179,15 @@
     width: 639px;;
     height: 689px;
     left: 920px;
-    top: 100px;
+    top: 185px;
 }
 
 .image3{
     position: absolute;
     width: 268px;
     height: 26px;
-    left: 1149px;
-    top: 790px;
+    left: 1200px;
+    top: 820px;
 }
 
 
@@ -178,30 +195,76 @@
     .image2, .image3{ display: none}
         .btn-toggle{display: block}
 }
-
 @media screen and (max-width: 900px) {
     .form{
         height: 580px;
         width: 540px;
         padding: 20px;
         position: absolute;
-        left: 5px;;
+        left: 4%;
         top: 15%;
         transform: translate(-50%;-50%);
         background: #FFFDFD;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 37px;
     }
-
-    
-}
-
-@media screen and (max-width: 900px) {
-    .image{
+    .email{
         position: absolute;
-        width: 337px;
-        height: 189px;
-        left: 30%;
-        top: -5%;
+        left: 10%;
+        right: 65.01%;
+        top: 18%;
+        bottom: 79.59%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42.19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #E5E5E5;
+
     }
-}   
+
+    .email input{
+        height: 85px;
+        font-size: 36px;
+        border-radius: 10px;
+
+    }
+    .password input{
+        height: 85px;
+        font-size: 36px;
+        border-radius: 10px;
+    }
+
+    .image{
+        left:25%;
+        top: 0px;
+
+    }
+
+    .forgot{
+        height: 49.570953369140625px;
+        width: 460.9664306640625px;
+        left: 47.973876953125px;
+        top: 266.443603515625px;
+        border-radius: nullpx;
+        position: absolute;
+        left: 320px;
+        right: 8.96%;
+        top: 46.91%;
+        bottom: 44.36%;
+        font-family: Roboto;
+        font-style: Roboto;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #124E78;
+    }
+
+
+}

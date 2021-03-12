@@ -1,7 +1,7 @@
 .form{
-    height: 580px;
+    height: 446px;
     width: 750px;
-    top: -12px;
+    top: 289px;
     border-radius: 37px;
     position: absolute;
     left: 30%;
@@ -16,7 +16,7 @@
     position: absolute;
     width: 580px;
     height: 143x;
-    left: 150px;
+    left: 170px;
     top: 580px;
     font-family: Roboto;
     font-style: Roboto;
@@ -34,7 +34,7 @@
     position: absolute;
     width: 559px;
     height: 75px;
-    left: 410px;
+    left: 430px;
     top: 580px;
     font-family: Roboto;
     font-style: normal;
@@ -49,50 +49,25 @@
 }
 
 
-.cadastrar{
+.text_sen{
     position: absolute;
-    left: 7%;
-    right: 30%;
-    top: 4%;
-    bottom: 89%;
+    left: 175px;
+    height: 208px;
+    width: 493px;
+    right: 21.2%;
+    top: 82px;
+    bottom: 86.8%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 51,56px;
     display: flex;
     align-items: center;
 
     color: rgba(146, 147, 148, 0.5);
 }
 
-.nome{
-    position: absolute;
-    Left: 7%;
-    right: 8.8%;
-    top: 20%;
-    bottom: 67.3%;
-    border-color: #E5E5E5;
-}
-
-.nome input{
-    height: 55px;
-    width: 619px;
-    left: 65px;
-    top: 150px;
-    font-size: 30px;
-    border-radius: 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    border-color: #E5E5E5;
-
-}
 
 ::placeholder{
     color: #E5E5E5;
@@ -125,17 +100,17 @@
     border-color: #E5E5E5;
 }
 
-.botao_loc{
+.botao_log{
     line-height: 30px;
     position: absolute;
-    left: 52.4%;
+    left: 215px;
     right: 8%;
-    top: 72.01%;
+    top: 334,5px;
     bottom: 13.38%;
     background: #124E78;
-    border-radius: 15px;
-    height: 83px;
-    width: 291px;
+    border-radius: 18px;
+    height: 60px;
+    width: 300px;
     font-size: 38px;
     display: inline-block;
     align-items: center;
@@ -144,32 +119,12 @@
 
 }
 
-.botao_can{
-    line-height: 30px;
-    position: absolute;
-    left: 33%;
-    right: 52.67%;
-    top: 60.7%;
-    bottom: 13.38%;
-    background: #FFFFFF;
-    border-radius: 18px;
-    height: 83px;
-    width: 291px;
-    font-size: 38px;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    color: #124E78;
-    border: 2px solid #124E78;
-    box-sizing: border-box;
-    border-radius: 18px;
-}
 
 .image{
     position: absolute;
     width: 337px;
     height: 189px;
-    left: 40%;
+    left: 41.5%;
     top: -2%;
     align-items: center;
     text-align: center;
@@ -236,7 +191,7 @@ body {
 
     }
 
-    .botao_loc{
+    .botao_log{
         line-height: 30px;
         position: absolute;
         left: 52.4%;
@@ -255,25 +210,5 @@ body {
 
     }
 
-    .botao_can{
-        line-height: 30px;
-        position: absolute;
-        left: 7.53%;
-        right: 52.67%;
-        top: 72.01%;
-        bottom: 13.38%;
-        background: #FFFFFF;
-        border-radius: 18px;
-        height: 70px;
-        width: 220px;
-        font-size: 38px;
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-        color: #124E78;
-        border: 2px solid #124E78;
-        box-sizing: border-box;
-        border-radius: 18px;
-    }
 
 }
